@@ -1,0 +1,868 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.bg{
+    background-image: url("https://www.themezaa.com/html/leadgen/demo/interior/images/bg-image/travel-slider-01.jpg"); 
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+   
+}
+@media screen and (max-width:600px) {
+    .logo img {
+    padding-top: 20px;
+    padding-left: 80px !important;
+}
+.logo{
+background-color:#262626;
+ height: 20vh !important;
+  position: sticky;
+ width: 100%;
+ top: 0;
+ z-index: 1;
+
+}
+    .dialog {
+    padding-right: 0px;
+    padding-top: 30px;
+    float: right;
+}
+.bg p {
+    margin-left: 46px !important;
+    margin-top: -20px !important;
+    width: 200px !important;
+    height: 257px !important;
+    color: aliceblue;
+    padding: 40px 55px;
+    font-size: 25px !important;
+    line-height: 48px;
+    font-weight: 500 !important;
+}
+.content {
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    float: left;
+    text-align: left;
+    justify-content: center;
+    height: 30vh;
+    width: 30%;
+    margin-left: 60px !important;
+    margin-top: 45px !important;
+}
+    .bg2 {
+        background-color: black;
+        height: 150vh !important;
+        width: 100% !important;
+        display: flex;
+    }
+
+.content .icon1 {
+    color: rgba(255, 228, 196, 0.596);
+    position: absolute;
+    left: 165px !important;
+    padding-top: 24px !important;
+    padding-left: 10px !important;
+display: none;
+}
+
+.chair img {
+    padding-top: 150px !important;
+    padding-left: 31px !important;
+    height: 41vh !important;
+    width: 80% !important;
+}
+
+.content3 {
+    /* display: flex
+; */
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(39, 39, 39, 255);
+    font-family: 'Open Sans', sans-serif;
+}
+.gridbox .full {
+    gap: 50px;
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo{
+background-color:#262626;
+ height: 10vh;
+  position: sticky;
+ width: 100%;
+ top: 0;
+ z-index: 1;
+
+}
+.logo img{
+    padding-top: 20px;
+    padding-left: 180px;
+}
+.dialog {
+    padding-right: 180px;
+    padding-top:30px; 
+    float: right;
+     
+  
+}
+.logo ul li{ 
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif;
+    color: bisque;
+    padding: 10px;
+    display: inline;
+     
+}
+ul li:hover{
+    cursor: pointer;
+}
+
+.contex p {
+    font-family:'Montserrat',sans-serif;
+    justify-content: left;
+    font-size:48px;
+    font-weight: 700;
+    padding:40px 55px ;
+    line-height: 48px; 
+    color: aliceblue;
+    border: 5px solid rgba(197, 164, 126, .5);
+}
+.bg button{
+    font-family:'Montserrat',sans-serif;
+    color:black;
+     margin: 25px; 
+    gap: 10px;
+    padding: 15px;
+    margin-left:10px; 
+   
+}
+.bg button a{
+    text-decoration: none;
+}
+
+.bg{
+     display:flex; 
+    justify-content: left;
+    align-items: center;
+}
+.bg p{
+    margin-left: 250px;
+    margin-top: 80px;
+     font-family:'Montserrat',sans-serif;
+     border: 5px solid rgba(197, 164, 126, .5);
+     width: 430px;
+     height: 250px;
+     color: aliceblue;
+     padding: 40px 55px;
+     font-size: 40px;
+     line-height: 48px;
+     font-weight: 700;
+}
+
+.bg2{
+    background-color:black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.content{
+    font-family: 'Open Sans', sans-serif ;
+    font-size: larger;
+    float: left;
+    justify-content: center;
+    height: 30vh;
+    width: 30%;
+    margin-left: 100px;
+    margin-top: 200px; 
+}
+.chair img{
+    padding-top: 150px;
+    padding-left: 280px;
+    height: 70vh;
+    width: 70%;
+}
+.content h1{
+    font-weight: lighter;
+    color:rgba(255, 228, 196, 0.596);
+   
+}
+.content h4{
+    font-weight: lighter;
+    color:gray;
+}
+.content p{
+    color: gray;
+  font-weight: lighter;
+}
+.content button{
+    border: 2px solid;
+    background-color: black;
+    color:rgba(255, 228, 196, 0.596); 
+    border-color:bisque;
+    border-radius: 30px;
+    padding: 20px;
+    padding-right: 45px;
+    position: relative;
+}
+
+.content .icon1{
+    color: rgba(255, 228, 196, 0.596);
+    position: absolute;
+    left: 258px;
+    padding-top: 18px;
+    padding-left: 10px;
+}
+
+
+
+.content3 {  
+    display:flex;
+    height: 100vh;
+    width:100%;
+    background-color:rgba(39,39,39,255);
+    font-family: 'Open Sans', sans-serif ;
+}
+.gridbox .full{
+    gap: 50px;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 150px 150px;
+    width: 50%;
+}
+.gridbox{
+    font-size: 20px;
+    padding: 50px;    
+}
+.sofa{
+    width: 50%;
+    background-image: url("https://www.themezaa.com/html/leadgen/demo/interior/images/bg-image/hero-bg22.jpg");
+    padding-left: 350px;
+}
+.full, .grid1, .grid2, .grid3, .grid4 .h3 {
+ 
+    line-height: 30px;
+
+
+}
+.gridbox .cthead h1{
+    line-height: 50px;
+}
+.gridbox .cthead h4{
+    color: gray;
+    font-weight: lighter;
+}
+
+svg{
+
+    color: rgba(255, 228, 196, 0.596); 
+}
+.full h3{
+    font-weight: lighter;
+    color:rgb(171, 171, 171) ;
+}
+.gridbox h1{
+    font-weight: lighter;
+    color:rgba(255, 228, 196, 0.596);  
+}
+.gridbox p{
+    color: rgb(112, 112, 112);
+}
+.pg4 {
+    background-color: black;
+
+}
+.service {
+    background-color:black;
+}
+.service h1{
+
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255, 228, 196, 0.596); 
+}
+.service p{
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(112, 112, 112);
+}
+
+.pg4 .service {
+    padding: 110px;
+line-height: 40px;    
+}
+.pg4 .service h1{
+    line-height: 50px;
+}
+.imgs{
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    
+}
+.imgs img{
+    height: 40vh;
+    width: 100%;
+         
+}
+.imgs p{
+    color: aliceblue;
+}
+.imgs h4{
+    color: gray;
+}
+.imgs .cd1{
+    text-align:center;
+    border: 2px solid black;
+    height: 55vh;
+    background-color:rgba(128, 128, 128, 0.32);
+    width: 25%;
+    margin: 50px;
+}
+
+.imgs .cd2{
+    text-align:center;
+    border: 2px solid black;
+    height: 55vh;
+    background-color:rgba(128, 128, 128, 0.32);
+    width: 25%;
+    margin: 50px;
+}
+
+.imgs .cd3{
+    text-align:center;
+    border: 2px solid black;
+    height: 55vh;
+    background-color:rgba(128, 128, 128, 0.32);
+    width: 25%;
+    margin: 50px;
+}
+
+.imgs .cd4{
+    text-align:center;
+    border-bottom: 2px solid;
+    height: 55vh;
+    background-color:rgba(128, 128, 128, 0.32);
+    width: 25%;
+    margin: 50px;
+}
+
+.qdd .qd{
+    font-size: larger;
+    text-align: center;
+    background-color:#262626;
+    height: 20vh;
+}
+
+.qdd .qd h1{
+    padding: 60px;
+}
+.qdd .qd button {
+    font-weight: 200;
+    color: white;
+    margin-left: 35px;
+    border-radius: 75px;
+    position: relative;
+   padding: 20px;
+   width: 15%;
+    background-color:#c5a47e; 
+}
+
+.qdd .qd svg{
+        bottom: 16px;
+    padding-left: 15px;
+    color:white;
+    position: absolute;
+}
+
+.projects{
+    background-color: black;
+}
+.our {
+    font-weight:lighter;
+   font-family:'Open Sans', sans-serif;
+    text-align:center;
+    padding: 50px;
+    line-height:40px;
+    font-size: larger;
+}
+.our h1{
+    color: #c5a47e;
+    padding-bottom: 20px;
+}
+.our p{
+    color:rgba(128, 128, 128, 0.32);
+}
+.gallery img{
+  height: 50vh;
+  padding: 50px;
+transition: transform 2s;
+}
+.gallery img:hover{
+    cursor:pointer;
+    transform: scale(0.9);
+    filter: brightness(0.5);
+   
+}
+.gallery {
+    align-content:center;
+    display: grid;
+    grid-template-columns: 480px 480px 480px;
+    grid-template-rows: 400px 400px ;
+}
+.count{
+    line-height: 50px;
+    font-weight: 200;
+    font-size: larger;
+    font-family:'Open Sans', sans-serif; 
+    display:flex;
+    background-color:black;
+    color: white;
+    gap:50px;
+    justify-content: center;
+}
+.count ,.count1, .count2, .count3, .count4 {
+    text-align: center;
+    padding:80px;
+}
+.count h1{
+    color: #c5a47e;
+}
+.count p{
+    color:rgba(128, 128, 128, 0.32);
+    text-decoration: underline;
+}
+
+.beautiful{
+    height: 60vh;
+
+}
+.bthome {
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image:url("https://www.themezaa.com/html/leadgen/demo/interior/images/bg-image/fitness-about-bg.jpg");
+}
+
+.btct {
+    font-family:'Open Sans', sans-serif; 
+    margin-left:180px;
+    padding: 12px;
+    height:60vh;
+    width: 30%;
+    background-color:black;
+    text-align:left;
+    line-height: 20px;
+}
+
+.btct h1{
+    text-align: justify;
+    font-weight: 300;
+    font-size:30px;
+    color: #c5a47e;
+    padding: 20px;
+}
+.btct h4{
+    font-size: 20px;
+    font-weight: 300;
+    color:gray;
+    padding: 20px;
+}
+.btct p {
+    font-weight: 300;
+    color:gray;
+    padding: 20px;
+}
+
+.btct button {
+    color: white;
+    background-color: #c5a47e;
+    margin: 10px;
+    padding: 15px;
+}
+
+.client {
+    background-color:black;
+}
+.clientov {
+    font-family:'Open Sans', sans-serif; 
+    font-weight: 300;
+    padding: 30px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.clientov h1{
+    padding: 40px;
+    color: #c5a47e;
+    font-size: 30px;
+    font-weight:lighter;
+}
+.clientov p{
+    font-size:medium;
+    color: gray;
+}
+.clientpics {
+    display: flex;
+    padding: 30px;
+
+}
+.clientpics img {
+    margin-left: 90px;
+    height: 20vh;
+    width: 100%;
+}
+.violetsofa{
+    height: 80vh;
+    background-color: rgb(50, 49, 49);
+}
+.vsofa {
+    height: 80vh;
+     background-image: url("../HTML/images/violetsofa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vct {
+    width: 38%;
+    font-family: 'Montserrat', sans-serif;  
+    padding-left: 200px;
+    padding-top: 150px;
+    text-align: left;
+    
+
+}
+.vct h1 {
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 60px;
+}
+.vct h4{
+    padding-top: 15px;
+    font-weight:20;
+    opacity: 0.8;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.vct button {
+    color: white;
+    background-color:rgb(38, 38, 38);
+    margin: 25px;
+    padding:15px;
+    padding-right: 60px;
+    border-radius: 30px;
+    font-weight:600;
+}
+.vct button svg {
+  padding-left: 10px;
+  color:rgb(255, 255, 255);
+    position: absolute;
+}
+.lastblog {
+    background-color:#1f1f1f;;
+    height: max-content;
+
+}
+.ldblg{
+    padding-top: 50px;
+    text-align: center;
+   
+}
+.ldblg h1 {
+    font-family:'Montserrat', sans-serif;   
+    padding: 50px;
+    color: #c5a47e;
+}
+.ldblg p {
+    padding-left: 380px;
+    width: 50%;
+    line-height: 30px;
+    color: gray;
+}
+.pillo  {
+    display: flex;
+    padding: 100px; 
+    height: 60vh;
+   font-family:'Montserrat', sans-serif;
+   gap: 50px;
+   
+}
+.pillo img {
+    height: 30vh; 
+    width: 90%;
+}
+.pillo img:hover{
+    cursor: pointer;
+    opacity: 0.3;
+}
+.pillow1 {
+    align-items:center;
+    width: 45%;
+    height: 55vh;
+    font-size:15px;
+    font-weight: 300;
+    text-align:left;
+    line-height: 25px;
+}
+.pillo h4{
+    color: #c5a47e;
+}
+.pillo p {
+    color: gray;
+}
+.pillo h6{
+    color: gray;
+    padding: 10px;
+
+}
+.pillow2 {
+
+    align-items:center;
+    width: 45%;
+    height: 55vh;
+    font-weight: 300;
+    font-size:15px;
+    text-align:left;
+    line-height: 25px;
+}
+.pillow3 {
+ 
+    align-items:center;
+    width: 45%;
+    height: 55vh;
+    font-weight: 300    ;
+    font-size:15px;
+    text-align:left;
+    line-height: 25px;
+}
+.sp{
+    border: none;
+    border-top: 1px solid gray;
+}
+.contactus {
+    background-color:#272727;;
+    font-family:'open sans',sans-serif; 
+    font-weight:lighter;
+    padding: 50px;
+}
+.contact h2{
+    color: #c5a47e;
+    text-align: center;
+    padding: 30px;    
+}
+
+.moonu {
+    margin: 20px;
+    display:flex;
+    text-align: center;
+    line-height: 25px;
+}
+.moonu p{
+    color: gray;
+}
+.address { 
+    width: 29%;
+    padding: 40px;
+}
+.number {
+
+    width: 29%;
+    padding: 40px;
+}
+.mail {
+     
+    width: 29%;
+    padding: 40px;
+}
+
+.moonu i {
+    color:#c5a47e;
+    padding: 20px;
+    font-size:25px;
+    font-weight:700;
+}
+
+
+.inputwhole {
+    padding: 50px;
+}
+.nmp {
+    width: 50%;
+}
+.tvd {
+    display: flex;
+    
+}
+.yourname input{
+    border: 2px solid;
+    width: 120%;
+    padding:10px;
+    margin: 10px;
+}
+.yourmail input {
+    border: 2px solid;
+     width:120%;
+    padding: 10px;
+    margin: 10px;
+}
+.yourphone input {
+    border: 2px solid;
+     width:120%;
+    padding: 10px;
+    margin: 10px;
+}
+.mdmsg {
+    display: flex;
+    width: 50%;
+     padding-left:250px;
+     margin-top:10px;
+}
+.yourmessage input {
+
+    border: 2px solid;
+    width:58%;
+    padding:50px;
+    padding-right: 180px;
+   
+}
+.buddon {
+    margin-top: 9px;
+    padding-right: 280px;
+}
+.buddon button{
+    float: right;
+    background-color: #c5a47e;
+    padding:10px;
+}
+
+.lastpg {
+    height: 15vh;
+    width: 100%;
+    background-color:black;
+    color: #786969db;
+    display: flex;
+    
+}
+
+.againlogo {
+    margin: 20px;
+    float: left;
+}
+.cpyright p{
+     text-align: center;
+    margin: 20px;
+    margin-left: 350px;
+    margin-top: 30px;
+
+}
+.social {
+    margin-top: 25px;
+    margin-left: 250px;
+}
+.social i{
+     margin: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.second{
+    display: flex;
+    width: 100%;
+}
+
+.second .col{
+    width: 50%;
+}
+
+.second .col img{
+    width: 100%;
+} */
+
+
+
+
+
+
+
+
+
+
+/* .con3{
+    display: flex;
+    width: 100%;
+}
+
+.con3 .co1{
+    width: 50%;
+    background-color:rgba(39,39,39,255) ;
+}
+
+.con3 .co2{
+    background-image: url("https://www.themezaa.com/html/leadgen/demo/interior/images/bg-image/hero-bg22.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100vh;
+}
+
+.con3 .co1 .row1{
+    display: flex;
+    width: 100%;
+}
+
+.row1 .c1{} */
+
